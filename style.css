@@ -255,3 +255,102 @@ nav {
 
 
 
+@media (max-width: 900px) {
+
+  /* NAV */
+  .container{
+    padding: 16px;
+  }
+
+  .navbar-header{
+    font-size: 26px;
+  }
+
+  .navbar-links a{
+    font-size: 18px;
+    padding: 8px 14px;
+  }
+
+
+
+  .hero{
+    padding: 50px 0;
+  }
+
+  .hero-container{
+    flex-direction: column;
+    gap: 30px;
+    padding: 0 20px;
+  }
+
+  .hero-text{
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .hero-text h1{
+    font-size: 42px;
+    max-width: 100%;
+  }
+
+  .hero-text p{
+    font-size: 18px;
+    max-width: 100%;
+  }
+
+  .hero-image{
+    width: 320px;
+    height: 320px;
+  }
+
+
+  .work{
+    padding: 50px 0;
+  }
+
+  .work-text h2{
+    font-size: 42px;
+    margin-bottom: 35px;
+  }
+
+  .work-image{
+    flex-direction: column;
+    gap: 24px;
+    padding: 0;
+  }
+
+  .work-image img{
+    width: 100%;
+    max-width: 420px;
+  }
+
+
+  .review-text{
+    padding: 20px;
+  }
+
+  .review-text p{
+    font-size: 18px;
+  }
+
+
+  .ready{
+    padding: 50px 0;
+  }
+
+  .ready-container h2{
+    font-size: 42px;
+  }
+
+  .ready-button a{
+    font-size: 18px;
+    padding: 14px 22px;
+  }
+}
+
+@media (min-width: 700px) and (max-width: 900px) {
+  .work-image{
+    flex-direction: row;
+  }
+}
+
