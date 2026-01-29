@@ -213,3 +213,45 @@ nav {
 .review-text:hover {
   transform: scale(1.025);
 }
+
+
+
+.ready{
+    padding: 75px;
+    background-color: darkred;
+    color: white;
+}
+
+.ready-container{
+    text-align: center;
+}
+
+.ready-container h2{
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.ready-button a{
+    display: inline-block;
+    padding: 16px 28px;
+    border-radius: 16px;
+
+    background-color: black;
+    color: white;
+    text-decoration: none;
+
+    font-size: 22px;
+    font-weight: 700;
+
+    transition:
+        transform 0.2s ease,
+        background-color 0.2s ease;
+}
+
+.ready-button a:hover {
+    background-color: black;
+    transform: translateY(-2px);
+}
+
+
+
